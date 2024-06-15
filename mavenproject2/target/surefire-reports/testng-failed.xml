@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.mycompany_TestMavin_jar_1.0-SNAPSHOT]" verbose="0">
+  <test name="AccountTest(failed)">
+    <classes>
+      <class name="com.mycompany.mavenproject1.TestMavinIT_Organized">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="testLogin"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.mycompany.mavenproject1.TestMavinIT_Organized -->
+    </classes>
+  </test> <!-- AccountTest(failed) -->
+  <test name="SideBarLinks(failed)">
+    <classes>
+      <class name="com.mycompany.mavenproject1.TestMavinIT_Organized">
+        <methods>
+          <include name="testTabRecuriment"/>
+          <include name="tearDownClass"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="testTabDirectory"/>
+          <include name="testTabDashbord"/>
+          <include name="testTabPIM"/>
+          <include name="setUpClass"/>
+          <include name="testTabMintance"/>
+          <include name="testTabBuzz"/>
+          <include name="testTabLeave"/>
+        </methods>
+      </class> <!-- com.mycompany.mavenproject1.TestMavinIT_Organized -->
+    </classes>
+  </test> <!-- SideBarLinks(failed) -->
+  <test name="AdminFunctonality(failed)">
+    <classes>
+      <class name="com.mycompany.mavenproject1.TestMavinIT_Organized">
+        <methods>
+          <include name="testTabESSsearch"/>
+          <include name="tearDownClass"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="screenShot"/>
+          <include name="testTabESSEdit"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.mycompany.mavenproject1.TestMavinIT_Organized -->
+    </classes>
+  </test> <!-- AdminFunctonality(failed) -->
+</suite> <!-- Failed suite [com.mycompany_TestMavin_jar_1.0-SNAPSHOT] -->
